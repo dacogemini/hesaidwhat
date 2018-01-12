@@ -1,0 +1,77 @@
+.jumbotron {
+    background-color: #383e4e;
+    margin: 0px;
+    padding: 32px;
+}
+.container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+.display-4 {
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+}
+.lead {
+    font-family: 'Rancho', cursive;
+    color: #383e4e;
+    font-size: 30px;
+}
+.saying {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #383e4e;
+    font-size: 30px;
+}
+.author {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #383e4e;
+    font-size: 30px;
+}
+.panel-body {
+    background-color: white;
+    padding:20px;
+    color: #383e4e;
+}
+.row {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.form-group {
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+}
+.btn-primary {
+    color: white;
+}
+.form-control {
+    width: 40%;
+}
+.row {
+    width: 100%;
+    height: auto;
+}
+#results {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #383e4e;
+    font-size: 30px;
+    margin-left: 30px;
+}
+hr {
+    font-weight: 12px;
+}
+h5 {
+    font-family: 'Ranga', cursive;
+}
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #383e4e;
+    font-size: 30px;
+}
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #383e4e;
+    font-size: 30px;
+}
