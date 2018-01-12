@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Pacifico|Rancho|Sigmar+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans+Condensed:300" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </head>
 <!-- ======================================================================= -->
 <!-- HEAD -->
@@ -29,6 +30,8 @@
       <h1 class="display-4">
         <center>He Said What?</center>
       </h1>
+      <i class="fab fa-github fa-2x" style="color:#ffc107;"></i> &nbsp
+      <i class="fab fa-codepen fa-2x" style="color:#ffc107;"></i>
     </div>
 <!-- ===================================================================== -->
 <!-- QUOTE -->
@@ -67,11 +70,11 @@
 <form>
     <div class="form-group">
         <label for="search">
-            <h3>Personalize</h3>
+            <h3>Enter a Name</h3>
         </label>
         <input type="text" class="form-control" id="userInput" placeholder="Example input">
         <br>
-        <button type="button" class="btn btn-danger" id="personalized">Search</button>
+        <button type="button" class="btn btn-dark" id="personalized">Search</button>
         <br>
         <br>
         <h5>*Clicking this button gives a personalized Donald Trump quote based
@@ -138,11 +141,6 @@ function getPersonal() {
                 console.log(quote);
                 $("#results").text(JSON.stringify(quote));;
                 $("#userInput").text(quote); */
-
-           
-     
-  
-   
 
     /* $(()=>{
             $("#letter-a a")
